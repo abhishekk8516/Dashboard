@@ -35,6 +35,7 @@ public class JSONController {
 		Data data = new Data();
 		data =	dashboard.getCountStatic(from, to, daysBefore);
 		System.out.println(" abhishek mishra");
+		System.out.println("commit from master");
 		return data;
 	}
 
