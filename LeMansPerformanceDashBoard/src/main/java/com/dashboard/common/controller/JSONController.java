@@ -34,6 +34,7 @@ public class JSONController {
 	Data listContact(@PathVariable String from,String to, int daysBefore) throws IOException{
 		Data data = new Data();
 		data =	dashboard.getCountStatic(from, to, daysBefore);
+		System.out.println("added new line abhishek");
 		return data;
 	}
 
