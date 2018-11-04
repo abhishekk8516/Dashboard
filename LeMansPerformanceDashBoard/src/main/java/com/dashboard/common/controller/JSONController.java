@@ -34,8 +34,6 @@ public class JSONController {
 	Data listContact(@PathVariable String from,String to, int daysBefore) throws IOException{
 		Data data = new Data();
 		data =	dashboard.getCountStatic(from, to, daysBefore);
-		System.out.println(" abhishek mishra");
-		System.out.println("commit from master");
 		return data;
 	}
 
